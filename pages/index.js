@@ -24,7 +24,6 @@ export async function getServerSideProps (context) {
     requests[genre]?.url || requests.fetchTrending.url
   }`
   ).then(res => res.json())
-
   return {
     props: {
       results: request.results
