@@ -1,16 +1,16 @@
 import Head from 'next/head'
-import Header from '../components/Organisms/Header'
+import Navbar from '../components/Molecules/Navbar'
+import Header from '../components/Molecules/Header'
 
 export default function Home () {
   return (
     <div>
       <Head>
-        <title>PlatoVision</title>
+        <title>Hulu Remastered</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      {/* //Header */}
       <Header />
-      {/* //Nav */}
+      <Navbar />
       {/* //Results */}
     </div>
   )
